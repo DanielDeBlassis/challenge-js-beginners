@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #23</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #23</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #23: Invertir una cadena de caracteres<br>
+            Ejemplo:<br>
+              "dabale arroz a la zorra el abad" debería quedar como "daba le arroz al a zorra elabad"<br>
+              "bienvenido" debería quedar como "odinevneib"</p>
+    </details>
+
+    <form>
+        <h1>Invertir Cadena de Caracteres</h1>
+        <h2>Ingresa el Texto a Invertir</h2>
+        <label for="textoInvertir">Ingrese texto
+            <textarea type="text" id="texto" name="textoInvertir" placeholder="Ingrese texto" maxlength="50" required></textarea>
+        </label>
+        <button type="button" onclick="invertirCadena()">Invertir</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-23.js'></script>
+</body>
+</html>

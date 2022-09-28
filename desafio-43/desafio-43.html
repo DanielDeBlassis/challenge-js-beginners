@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #43</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+
+<body>
+    <details>
+        <summary>
+            <h1>Desafío #43</h1>
+        </summary>
+        <p id="parrafo-ejercicio">Desafío de programación 43. Crear una función que reciba como argumento un arreglo
+            bidimensional y un número y extraiga como arreglo unidimensional la columna especificada por el número</p>
+    </details>
+
+    <form>
+        <label>Ingrese array bidimensional
+            <span>(Usar comillas dobles: "")</span>
+            <textarea type="text" id="array"
+                placeholder='[{"ejemplo": "ejemplo1", "elemento2": "elemento1"}, {"ejemplo": "ejemplo2", "elemento": "elemento2"}]'></textarea>
+        </label>
+        <label>Ingrese número de columna
+            <span>(Inicio en 0)</span>
+            <input type="number" id="columna" min="0" placeholder="0">
+        </label>
+        <button type="button" onclick="extraerColumna()">Extraer</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+
+    <script src='desafio-43.js'></script>
+</body>
+
+</html>

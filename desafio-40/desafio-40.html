@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #40</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #40</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #40. Implementar el algoritmo de clasificación de burbujas para un arreglo de números</p>
+    </details>
+
+    <form>
+        <h1>Ordenar Array de Números</h1>
+        <label for="nroAgregar">Agregar número al array
+            <input type="number" id="numero" name="nroAgregar" placeholder="Ingrese número" maxlength="3" required/>
+        </label>
+        <button type="button" onclick="agregarNumero()">Agregar</button>
+        <button type="button" onclick="ordenarArray()">Ordenar Array</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-40.js'></script>
+</body>
+</html>

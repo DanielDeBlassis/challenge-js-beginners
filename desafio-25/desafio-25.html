@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #25</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #25</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #25: Crear una función que reciba dos arrays (arreglos) de números como argumentos y retorne un array con números que estén en uno u otro array, pero NO en ambos.<br>
+            Nota: Esto se llama "diferencia simétrica" entre conjuntos<br>
+            Ejemplo:<br>
+              [1,2,3] y [3,7,11] debería devolver [1,2,7,11]<br>
+              [5,10,3] y [10,1] debería quedar como [5,3,1]</p>
+    </details>
+
+    <form>
+        <h1>Extraer números Arrays</h1>
+        <h2>Ingresa los valores de los arrays</h2>
+        <label for="numeroAgregar">Ingrese número
+            <input type="number" id="numero" name="numeroAgregar" placeholder="Ingrese número" min="0" required>
+        </label>
+        <button type="button" onclick="agregarArrayUno()">Agregar Array 1</button>
+        <button type="button" onclick="agregarArrayDos()">Agragar Array 2</button>
+        <button type="button" onclick="filtrarArrays()">Filtrar Arrays</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-25.js'></script>
+</body>
+</html>

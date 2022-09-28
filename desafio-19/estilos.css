@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+details{
+    padding: 20px;
+    border: solid 1px black;
+}
+details:hover{
+    background-color: #ccc;
+}
+
+summary{
+    cursor: pointer;
+    list-style: none;
+}
+
+#parrafo-ejercicio{
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+input, label{
+    margin: 10px;
+}
+
+div#contenedor-resultado {
+    padding-top: 5%;
+}
+
+p.nro-resultado {
+    margin: 5px;
+    font-size: 2rem;
+}

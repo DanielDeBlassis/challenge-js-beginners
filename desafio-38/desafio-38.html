@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #38</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #38</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #38. Crear una función que convierta un arreglo de códigos ASCII en una cadena de texto</p>
+    </details>
+
+    <form>
+        <h1>Convertir array de códigos ASCII en cadena de texto</h1>
+        <label for="textoInvertir">Ingrese array (Ej: [0, 1, 2...])
+            <textarea type="text" id="texto" name="textoInvertir" placeholder="Ingrese texto" maxlength="90" required></textarea>
+        </label>
+        <button type="button" onclick="convertirArray()">Convertir</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-38.js'></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #35</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #35</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #35. Crea una función 
+            que convierta un texto CSV (separado por comas) en una matriz o array bidimensional</p>
+    </details>
+
+    <form>
+        <h1>Ingresar datos delimitados por punto y coma</h1>
+        <label for="textoInvertir">Ingrese datos delimitados por coma
+            <textarea type="text" id="texto" name="textoInvertir" placeholder="Ingrese texto" maxlength="90" required></textarea>
+        </label>
+        <button type="button" onclick="convertirArray()">Convertir</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-35.js'></script>
+</body>
+</html>

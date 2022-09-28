@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #13</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #13</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #13: 
+            Encuentra el valor máximo en un array de números</p>
+    </details>
+
+    <form>
+        <h1>Encontrar Número Máximo</h1>
+        <h2>Agruegar Números al Array</h2>
+        <label for="numero">Ingrese un número
+            <input type="number" id="input-numero" name="numero" placeholder="0000" maxlength="4" required>
+        </label>
+        <button type="button" onclick="agregarNumero()">Agregar</button>
+        <button type="button" onclick="findMax()">Buscar</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-13.js'></script>
+</body>
+</html>

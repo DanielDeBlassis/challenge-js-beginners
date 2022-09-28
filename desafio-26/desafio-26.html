@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #26</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #26</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #26: Crear una función que reciba dos arrays de números y retorne un nuevo array con los elementos que se encuentren en el primer array, pero no en el segundo<br>
+            Nota; Esto se llama "resta" entre conjuntos<br>
+            Ejemplo:<br>
+              [5,1,2,3,4] y [3,4] debería devolver [5,1,2]</p>
+    </details>
+
+    <form>
+        <h1>Restar Números Arrays</h1>
+        <h2>Ingresa los valores de los arrays</h2>
+        <label for="numeroAgregar">Ingrese número
+            <input type="number" id="numero" name="numeroAgregar" placeholder="Ingrese número" min="0" required>
+        </label>
+        <button type="button" onclick="agregarArrayUno()">Agregar Array 1</button>
+        <button type="button" onclick="agregarArrayDos()">Agragar Array 2</button>
+        <button type="button" onclick="filtrarArrays()">Filtrar Arrays</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-26.js'></script>
+</body>
+</html>

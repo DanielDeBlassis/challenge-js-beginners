@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #19</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #19</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #19: Crear una función que retorne un array con los primeros números "n-primos" mayores que un número particular definido "alComienzo"<br>
+            Ejemplo:<br>
+              Quiero los primeros 4 números primos mayores que 5, el resultado debería ser: [7,11,13,17,19]
+            </p>
+    </details>
+
+    <form>
+        <h1>Primeros n números primos en un rango</h1>
+        <label for="nroComienzo">Ingrese el número de inicio (mayor a)
+            <input type="number" id="numero" name="nroComienzo" required>
+        </label>
+        <label for="cantCoincidencias">Ingrese la cantidad de coincidencias
+            <input type="number" id="cantidad" name="cantCoincidencias" required>
+        </label>
+        <button type="button" onclick="buscarPrimos()">Generar</button>
+    </form>
+    
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-19.js'></script>
+</body>
+</html>

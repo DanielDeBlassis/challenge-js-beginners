@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #24</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #24</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #24: Crear una función que reciba dos arrays (arreglos) como argumentos y retorne el resultado en un nuevo arreglo<br>
+            Ejemplo:<br>
+              [1,2,3] con ["a","b","c"] debería quedar como [1,2,3,"a","b","c"]</p>
+    </details>
+
+    <form>
+        <h1>Concatenar Arrays</h1>
+        <h2>Ingresa los valores de los arrays</h2>
+        <label for="textoAgregar">Ingrese texto
+            <input type="text" id="texto" name="textoAgregar" placeholder="Ingrese texto" maxlength="15" required>
+        </label>
+        <label for="numeroAgregar">Ingrese número
+            <input type="number" id="numero" name="numeroAgregar" placeholder="Ingrese número" min="0" required>
+        </label>
+        <button type="button" onclick="agregarArrayUno()">Agregar Array 1</button>
+        <button type="button" onclick="agregarArrayDos()">Agragar Array 2</button>
+        <button type="button" onclick="concatenarArrays()">Concatenar</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-24.js'></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #21</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #21</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #21: Rotar un array a la derecha una posición<br>
+            Ejemplo:<br>
+              [2,3,4,1] debería quedar como [1,2,3,4]<br>
+              [2,3] debería quedar como [3,2]</p>
+    </details>
+
+    <form>
+        <h1>Rotar Array a la Derecha</h1>
+        <h2>Agruegar Números al Array</h2>
+        <label for="numero">Ingrese un número
+            <input type="number" id="input-numero" name="numero" placeholder="0000" maxlength="4" min="0" required>
+        </label>
+        <button type="button" onclick="agregarNumero()">Agregar</button>
+        <button type="button" onclick="rotarDerecha()">Rotar</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-21.js'></script>
+</body>
+</html>

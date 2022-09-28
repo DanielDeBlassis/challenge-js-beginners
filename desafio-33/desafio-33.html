@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #33</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #33</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #33. Calcule la suma de los números recibidos en una cadena delimitada por comas</p>
+    </details>
+
+    <form>
+        <h1>Sumar números delimitados por coma</h1>
+        <label for="textoInvertir">Ingrese números delimitados por coma
+            <textarea type="text" id="texto" name="textoInvertir" placeholder="Ingrese texto" maxlength="90" required></textarea>
+        </label>
+        <button type="button" onclick="sumarNumeros()">Sumar</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-33.js'></script>
+</body>
+</html>

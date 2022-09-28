@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #27</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #27</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #27: Crear una función que reciba un array de números como argumento y retorne un array con los elementos distintos<br>
+            Ejemplo:<br>
+               [1,2,3,4,5,4,3,2,1,0] debería retornar [1,2,3,4,5,0]</p>
+    </details>
+
+    <form>
+        <h1>Restar Números Arrays</h1>
+        <h2>Ingresa los valores de los arrays</h2>
+        <label for="numeroAgregar">Ingrese número
+            <input type="number" id="numero" name="numeroAgregar" placeholder="Ingrese número" min="0" required>
+        </label>
+        <button type="button" onclick="agregarArray()">Agregar</button>
+        <button type="button" onclick="filtrarArray()">Filtrar Array</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-27.js'></script>
+</body>
+</html>

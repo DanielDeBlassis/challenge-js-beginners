@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #50</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+
+<body>
+    <details>
+        <summary>
+            <h1>Desafío #50</h1>
+        </summary>
+        <p id="parrafo-ejercicio">Desafío de programación #50. Cree una función que reciba n como argumento y devuelva un arreglo de n números aleatorios únicos del 1 al n.</p>
+    </details>
+
+    <form>
+        <h3>Generar arreglo</h3>
+        <label>Ingrese número
+            <input type="number" id="numero" placeholder='3' min="3" required/>
+        </label>
+        <button type="button" onclick="generarArreglo()">Generar</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+
+    <script src='desafio-50.js'></script>
+</body>
+
+</html>

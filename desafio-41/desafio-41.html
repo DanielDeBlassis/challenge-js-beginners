@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #41</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+
+<body>
+    <details>
+        <summary>
+            <h1>Desafío #41</h1>
+        </summary>
+        <p id="parrafo-ejercicio">Desafío de programación #41. Crear una función para calcular la distancia entre dos
+            puntos definidos por sus coordenadas x, y</p>
+    </details>
+
+    <form>
+        <h1>Calcular distancia entre dos puntos (x, y)</h1>
+        <div class="contenedor-coordenadas">
+            <label for="x1">
+                <p>Valor X<sup>1</sup></p>
+                <input type="number" id="x1" name="x1" placeholder="X1" maxlength="3"
+                    required />
+            </label>
+            <label for="y1">
+                <p>Valor Y<sup>1</sup></p>
+                <input type="number" id="y1" name="y1" placeholder="Y1" maxlength="3"
+                    required />
+            </label>
+        </div>
+        <div class="contenedor-coordenadas">
+            <label for="x2">
+                <p>Valor X<sup>2</sup></p>
+                <input type="number" id="x2" name="x2" placeholder="X2" maxlength="3"
+                    required />
+            </label>
+            <label for="y2">
+                <p>Valor Y<sup>2</sup></p>
+                <input type="number" id="y2" name="y2" placeholder="Y2" maxlength="3"
+                    required />
+            </label>
+        </div>
+        <button type="button" onclick="calcularDistancia()">Calcular Distancia</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+
+    <script src='desafio-41.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #16</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #17</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #17: Calcular la suma de los dígitos positivos de un número entero positivo.<br>
+            -Ejemplo:<br>
+               123 = 1 + 2 + 3 = 6<br>
+               2 = 2<br>
+               1234 = 1 + 2 + 3 + 4 = 10</p>
+    </details>
+
+    <form>
+        <h1>Calcular suma de los dígitos de un número</h1>
+        <h2>Ingrese un número para sumarlo</h2>
+        <label for="numeroASumar">Ingrese un número:
+            <input type="number" id="numero" name="numeroASumar" min="1" required>
+        </label>
+        <button type="button" onclick="sumarDigitos()">Calcular</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-17.js'></script>
+</body>
+</html>

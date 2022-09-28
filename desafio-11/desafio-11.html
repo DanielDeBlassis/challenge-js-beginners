@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafío #11</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+
+</head>
+<body>
+    <details>
+        <summary><h1>Desafío #11</h1></summary>
+        <p id="parrafo-ejercicio">Desafío de programación #11: 
+            Calcula el promedio de todos los números en un array de números. (en una función)</p>
+    </details>
+
+    <form>
+        <h1>Cálculo Promedio</h1>
+        <h2>Agruegar Números al Array</h2>
+        <label for="numero">Ingrese un número
+            <input type="number" id="input-numero" name="numero" placeholder="0000" maxlength="4" required>
+        </label>
+        <button type="button" onclick="agregarNumero()">Agregar</button>
+        <button type="button" onclick="calcularPromedio()">Calcular</button>
+    </form>
+
+    <div id="contenedor-resultado">
+    </div>
+    
+    <script src='desafio-11.js'></script>
+</body>
+</html>
